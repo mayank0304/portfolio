@@ -53,8 +53,7 @@ export default function Home() {
             >
               <h1 className="text-5xl font-bold mb-4">Hi, I&apos;m Mayank</h1>
               <p className="text-xl mb-8">
-                I&apos;m a passionate developer with a love for creating amazing mobile applications.
-                Let&apos;s work together!
+                A passionate developer with a love for creating amazing mobile applications.
               </p>
               <div className="flex gap-4 justify-center md:justify-start">
                 <a
