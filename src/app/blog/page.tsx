@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import Image from 'next/image';
 import { blogPosts } from '@/data/blogPosts';
 
 export default function BlogPage() {
@@ -15,10 +16,12 @@ export default function BlogPage() {
           className="text-center mb-12"
         >
           <div className="flex items-center justify-center gap-4 mb-4">
-            <img
+            <Image
               src="/1.png"
               alt="SkillStack AI Logo"
-              className="w-30 h-30 rounded-lg object-cover"
+              width={120}
+              height={120}
+              className="rounded-lg object-cover"
             />
             <h1 className="text-4xl md:text-5xl font-bold">SkillStack AI Development Blog</h1>
           </div>

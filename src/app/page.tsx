@@ -24,7 +24,7 @@ export default function Home() {
       <nav className="fixed top-0 w-full bg-black/50 backdrop-blur-sm z-50">
         <div className="container mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
-            <h1 className="text-2xl font-bold">Mayank's Portfolio</h1>
+            <h1 className="text-2xl font-bold">Mayank&apos;s Portfolio</h1>
             <div className="hidden md:flex space-x-8">
               {['home', 'projects', 'skills', 'experience', 'blog', 'contact'].map((section) => (
                 <button
@@ -55,8 +55,8 @@ export default function Home() {
             >
               <h1 className="text-5xl font-bold mb-4">Hi, I'm Mayank</h1>
               <p className="text-xl mb-8">
-                A passionate developer with a love for creating amazing mobile applications.
-                Let's build something incredible together!
+                I&apos;m a passionate developer with a love for creating amazing mobile applications.
+                Let&apos;s work together!
               </p>
               <div className="flex gap-4 justify-center md:justify-start">
                 <a
