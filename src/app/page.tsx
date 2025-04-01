@@ -2,12 +2,10 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FaGithub, FaInstagram, FaArrowDown } from 'react-icons/fa';
+import { FaGithub, FaInstagram} from 'react-icons/fa';
 import Image from 'next/image';
 import ContactForm from './components/ContactForm';
 import MobileNav from './components/MobileNav';
-import Link from 'next/link';
-import ExperienceCard from './components/ExperienceCard';
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState('home');
@@ -53,7 +51,7 @@ export default function Home() {
               transition={{ duration: 0.5 }}
               className="text-center md:text-left"
             >
-              <h1 className="text-5xl font-bold mb-4">Hi, I'm Mayank</h1>
+              <h1 className="text-5xl font-bold mb-4">Hi, I&apos;m Mayank</h1>
               <p className="text-xl mb-8">
                 I&apos;m a passionate developer with a love for creating amazing mobile applications.
                 Let&apos;s work together!
